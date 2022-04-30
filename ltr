@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 clear
 file=$1
-cp $file ~/.java/
-cd ~/.java/
+cp $file ~/.ltr/
+cd ~/.ltr/
 echo "Proses sedang berjalan..."
 ecj $file 2> hasil.txt
 if [ -s hasil.txt ]; then
